@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-16T04:04:55Z" name="Thought Works Job Search Portal APP" finished-at="2019-12-16T04:05:13Z" duration-ms="17405">
+    <groups>
+    </groups>
+    <test started-at="2019-12-16T04:04:55Z" name="Regeression Test - Job Search Portal" finished-at="2019-12-16T04:05:13Z" duration-ms="17405">
+      <class name="com.thoughtwork.practice.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@7e9131d5]" started-at="2019-12-16T04:04:55Z" name="setUp" finished-at="2019-12-16T04:05:02Z" duration-ms="6663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitletest()[pri:1, instance:com.thoughtwork.practice.testcases.HomePageTest@7e9131d5]" started-at="2019-12-16T04:05:02Z" name="homePageTitletest" finished-at="2019-12-16T04:05:02Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@7e9131d5]" started-at="2019-12-16T04:05:02Z" name="tearDown" finished-at="2019-12-16T04:05:02Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.thoughtwork.practice.testcases.HomePageTest -->
+      <class name="com.thoughtwork.practice.testcases.JobSearchPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@2e1d27ba]" started-at="2019-12-16T04:05:02Z" name="setUp" finished-at="2019-12-16T04:05:13Z" duration-ms="10427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="jobSearchPageTitle()[pri:1, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@2e1d27ba]" started-at="2019-12-16T04:05:13Z" name="jobSearchPageTitle" finished-at="2019-12-16T04:05:13Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobSearchPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@2e1d27ba]" started-at="2019-12-16T04:05:13Z" name="tearDown" finished-at="2019-12-16T04:05:13Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.thoughtwork.practice.testcases.JobSearchPageTest -->
+    </test> <!-- Regeression Test - Job Search Portal -->
+  </suite> <!-- Thought Works Job Search Portal APP -->
+</testng-results>

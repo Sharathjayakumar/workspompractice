@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Thought Works Job Search Portal APP" verbose="1">
+	<test name="Regeression Test - Job Search Portal">
+		<classes>
+			<class name="com.thoughtwork.practice.testcases.HomePageTest">
+			</class>
+			<class
+				name="com.thoughtwork.practice.testcases.JobSearchPageTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
