@@ -2,114 +2,114 @@
 <testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-18T13:41:17 IST" name="Thought Works Job Search Portal APP" finished-at="2019-12-18T13:43:54 IST" duration-ms="157327">
+  <suite started-at="2019-12-18T14:20:33 IST" name="Thought Works Job Search Portal APP" finished-at="2019-12-18T14:23:02 IST" duration-ms="149234">
     <groups>
     </groups>
-    <test started-at="2019-12-18T13:41:17 IST" name="Regeression Test - Job Search Portal" finished-at="2019-12-18T13:43:54 IST" duration-ms="157327">
+    <test started-at="2019-12-18T14:20:33 IST" name="Regeression Test - Job Search Portal" finished-at="2019-12-18T14:23:02 IST" duration-ms="149234">
       <class name="com.thoughtwork.practice.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:41:17 IST" name="setUp" finished-at="2019-12-18T13:41:26 IST" duration-ms="8668" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:20:33 IST" name="setUp" finished-at="2019-12-18T14:20:40 IST" duration-ms="7339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="brokenLinksCheck()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:41:26 IST" name="brokenLinksCheck" finished-at="2019-12-18T13:41:42 IST" duration-ms="16491" status="PASS">
+        <test-method signature="brokenLinksCheck()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:20:40 IST" name="brokenLinksCheck" finished-at="2019-12-18T14:20:59 IST" duration-ms="18657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brokenLinksCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:41:42 IST" name="tearDown" finished-at="2019-12-18T13:41:42 IST" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:20:59 IST" name="tearDown" finished-at="2019-12-18T14:20:59 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:41:42 IST" name="setUp" finished-at="2019-12-18T13:41:48 IST" duration-ms="5693" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:20:59 IST" name="setUp" finished-at="2019-12-18T14:21:04 IST" duration-ms="5591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="careerTabCheck()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:41:48 IST" name="careerTabCheck" finished-at="2019-12-18T13:41:48 IST" duration-ms="37" status="PASS">
+        <test-method signature="careerTabCheck()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:04 IST" name="careerTabCheck" finished-at="2019-12-18T14:21:04 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- careerTabCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:41:48 IST" name="tearDown" finished-at="2019-12-18T13:41:48 IST" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:04 IST" name="tearDown" finished-at="2019-12-18T14:21:05 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:41:48 IST" name="setUp" finished-at="2019-12-18T13:41:54 IST" duration-ms="5839" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:05 IST" name="setUp" finished-at="2019-12-18T14:21:09 IST" duration-ms="4854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickCareerTabTest()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:41:54 IST" name="clickCareerTabTest" finished-at="2019-12-18T13:42:03 IST" duration-ms="9503" status="PASS">
+        <test-method signature="clickCareerTabTest()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:09 IST" name="clickCareerTabTest" finished-at="2019-12-18T14:21:19 IST" duration-ms="9554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCareerTabTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:42:03 IST" name="tearDown" finished-at="2019-12-18T13:42:03 IST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:19 IST" name="tearDown" finished-at="2019-12-18T14:21:19 IST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:42:03 IST" name="setUp" finished-at="2019-12-18T13:42:09 IST" duration-ms="5381" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:19 IST" name="setUp" finished-at="2019-12-18T14:21:25 IST" duration-ms="5663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePageTitletest()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:42:09 IST" name="homePageTitletest" finished-at="2019-12-18T13:42:09 IST" duration-ms="12" status="PASS">
+        <test-method signature="homePageTitletest()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:25 IST" name="homePageTitletest" finished-at="2019-12-18T14:21:25 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitletest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:42:09 IST" name="tearDown" finished-at="2019-12-18T13:42:09 IST" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:25 IST" name="tearDown" finished-at="2019-12-18T14:21:25 IST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:42:09 IST" name="setUp" finished-at="2019-12-18T13:42:15 IST" duration-ms="5842" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:25 IST" name="setUp" finished-at="2019-12-18T14:21:30 IST" duration-ms="4931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchJobLinkTest()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:42:15 IST" name="searchJobLinkTest" finished-at="2019-12-18T13:42:20 IST" duration-ms="5082" status="PASS">
+        <test-method signature="searchJobLinkTest()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:30 IST" name="searchJobLinkTest" finished-at="2019-12-18T14:21:35 IST" duration-ms="5076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchJobLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@22ef9844]" started-at="2019-12-18T13:42:20 IST" name="tearDown" finished-at="2019-12-18T13:42:20 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.HomePageTest@4de4b452]" started-at="2019-12-18T14:21:35 IST" name="tearDown" finished-at="2019-12-18T14:21:35 IST" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.thoughtwork.practice.testcases.HomePageTest -->
       <class name="com.thoughtwork.practice.testcases.JobSearchPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:20 IST" name="setUp" finished-at="2019-12-18T13:42:30 IST" duration-ms="9660" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:21:35 IST" name="setUp" finished-at="2019-12-18T14:21:45 IST" duration-ms="10481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="jobSearchPageTitle()[pri:1, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:30 IST" name="jobSearchPageTitle" finished-at="2019-12-18T13:42:30 IST" duration-ms="11" status="PASS">
+        <test-method signature="jobSearchPageTitle()[pri:1, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:21:45 IST" name="jobSearchPageTitle" finished-at="2019-12-18T14:21:46 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jobSearchPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:30 IST" name="tearDown" finished-at="2019-12-18T13:42:30 IST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:21:46 IST" name="tearDown" finished-at="2019-12-18T14:21:46 IST" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:30 IST" name="setUp" finished-at="2019-12-18T13:42:40 IST" duration-ms="10237" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:21:46 IST" name="setUp" finished-at="2019-12-18T14:21:55 IST" duration-ms="9590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="jobSearchPageURL()[pri:2, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:40 IST" name="jobSearchPageURL" finished-at="2019-12-18T13:42:40 IST" duration-ms="11" status="PASS">
+        <test-method signature="jobSearchPageURL()[pri:2, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:21:55 IST" name="jobSearchPageURL" finished-at="2019-12-18T14:21:55 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jobSearchPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:40 IST" name="tearDown" finished-at="2019-12-18T13:42:40 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:21:55 IST" name="tearDown" finished-at="2019-12-18T14:21:55 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:40 IST" name="setUp" finished-at="2019-12-18T13:42:51 IST" duration-ms="10420" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:21:55 IST" name="setUp" finished-at="2019-12-18T14:22:06 IST" duration-ms="10976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isJobSearchTextBoxDisplayed()[pri:3, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:51 IST" name="isJobSearchTextBoxDisplayed" finished-at="2019-12-18T13:42:51 IST" duration-ms="33" status="PASS">
+        <test-method signature="isJobSearchTextBoxDisplayed()[pri:3, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:22:06 IST" name="isJobSearchTextBoxDisplayed" finished-at="2019-12-18T14:22:06 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isJobSearchTextBoxDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:51 IST" name="tearDown" finished-at="2019-12-18T13:42:51 IST" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:22:06 IST" name="tearDown" finished-at="2019-12-18T14:22:06 IST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:42:51 IST" name="setUp" finished-at="2019-12-18T13:43:01 IST" duration-ms="10005" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:22:06 IST" name="setUp" finished-at="2019-12-18T14:22:17 IST" duration-ms="10289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isCountrySelectorDisplayed()[pri:4, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:43:01 IST" name="isCountrySelectorDisplayed" finished-at="2019-12-18T13:43:13 IST" duration-ms="12047" status="FAIL">
+        <test-method signature="isCountrySelectorDisplayed()[pri:4, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:22:17 IST" name="isCountrySelectorDisplayed" finished-at="2019-12-18T14:22:29 IST" duration-ms="12040" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/.."}
@@ -118,10 +118,10 @@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
-System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.2'
+System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65456}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
-Session ID: be7304810a36c7bf6b9ffda6d8fc6e58
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59504}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
+Session ID: 351d6a29ef6d25f69a08b95eb9b70931
 *** Element info: {Using=xpath, value=//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/..}]]>
             </message>
             <full-stacktrace>
@@ -131,15 +131,15 @@ Session ID: be7304810a36c7bf6b9ffda6d8fc6e58
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
-System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.2'
+System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65456}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
-Session ID: be7304810a36c7bf6b9ffda6d8fc6e58
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59504}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
+Session ID: 351d6a29ef6d25f69a08b95eb9b70931
 *** Element info: {Using=xpath, value=//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/..}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -160,7 +160,7 @@ at com.thoughtwork.practice.testcases.JobSearchPageTest.isCountrySelectorDisplay
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
@@ -169,7 +169,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
@@ -195,15 +195,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isCountrySelectorDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:43:13 IST" name="tearDown" finished-at="2019-12-18T13:43:13 IST" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:22:29 IST" name="tearDown" finished-at="2019-12-18T14:22:29 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:43:13 IST" name="setUp" finished-at="2019-12-18T13:43:25 IST" duration-ms="12002" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:22:29 IST" name="setUp" finished-at="2019-12-18T14:22:38 IST" duration-ms="9238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="IsCountrySelectorEnabled()[pri:5, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:43:25 IST" name="IsCountrySelectorEnabled" finished-at="2019-12-18T13:43:37 IST" duration-ms="12027" status="FAIL">
+        <test-method signature="IsCountrySelectorEnabled()[pri:5, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:22:38 IST" name="IsCountrySelectorEnabled" finished-at="2019-12-18T14:22:50 IST" duration-ms="12023" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/.."}
@@ -212,10 +212,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
-System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.2'
+System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49210}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
-Session ID: fa16dcaf3cf6bc98e65da2fdc90f940b
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59641}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
+Session ID: 367282c6836a29bc4cac380a83412ef9
 *** Element info: {Using=xpath, value=//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/..}]]>
             </message>
             <full-stacktrace>
@@ -225,15 +225,15 @@ Session ID: fa16dcaf3cf6bc98e65da2fdc90f940b
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
-System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.2'
+System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49210}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
-Session ID: fa16dcaf3cf6bc98e65da2fdc90f940b
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59641}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
+Session ID: 367282c6836a29bc4cac380a83412ef9
 *** Element info: {Using=xpath, value=//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/..}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -254,7 +254,7 @@ at com.thoughtwork.practice.testcases.JobSearchPageTest.IsCountrySelectorEnabled
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
@@ -263,7 +263,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1378)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
@@ -289,19 +289,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IsCountrySelectorEnabled -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:43:37 IST" name="tearDown" finished-at="2019-12-18T13:43:37 IST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:22:50 IST" name="tearDown" finished-at="2019-12-18T14:22:50 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:43:37 IST" name="setUp" finished-at="2019-12-18T13:43:52 IST" duration-ms="14843" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:22:50 IST" name="setUp" finished-at="2019-12-18T14:23:00 IST" duration-ms="9291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyJobSearch()[pri:6, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:43:52 IST" name="verifyJobSearch" finished-at="2019-12-18T13:43:54 IST" duration-ms="2129" status="PASS">
+        <test-method signature="verifyJobSearch()[pri:6, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:23:00 IST" name="verifyJobSearch" finished-at="2019-12-18T14:23:02 IST" duration-ms="2237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyJobSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@6283d8b8]" started-at="2019-12-18T13:43:54 IST" name="tearDown" finished-at="2019-12-18T13:43:54 IST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thoughtwork.practice.testcases.JobSearchPageTest@50b5ac82]" started-at="2019-12-18T14:23:02 IST" name="tearDown" finished-at="2019-12-18T14:23:02 IST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
