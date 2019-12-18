@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 157.954 s <<< FAILURE! - in TestSuite
-com.thoughtwork.practice.testcases.JobSearchPageTest.isCountrySelectorDisplayed  Time elapsed: 12.053 s  <<< FAILURE!
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 149.755 s <<< FAILURE! - in TestSuite
+com.thoughtwork.practice.testcases.JobSearchPageTest.isCountrySelectorDisplayed  Time elapsed: 12.043 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/.."}
   (Session info: chrome=79.0.3945.88)
@@ -10,14 +10,14 @@ no such element: Unable to locate element: {"method":"xpath","selector":"//div[@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
-System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.2'
+System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65456}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
-Session ID: be7304810a36c7bf6b9ffda6d8fc6e58
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59504}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
+Session ID: 351d6a29ef6d25f69a08b95eb9b70931
 *** Element info: {Using=xpath, value=//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/..}
 	at com.thoughtwork.practice.testcases.JobSearchPageTest.isCountrySelectorDisplayed(JobSearchPageTest.java:49)
 
-com.thoughtwork.practice.testcases.JobSearchPageTest.IsCountrySelectorEnabled  Time elapsed: 12.033 s  <<< FAILURE!
+com.thoughtwork.practice.testcases.JobSearchPageTest.IsCountrySelectorEnabled  Time elapsed: 12.025 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/.."}
   (Session info: chrome=79.0.3945.88)
@@ -25,10 +25,10 @@ no such element: Unable to locate element: {"method":"xpath","selector":"//div[@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
-System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.2'
+System info: host: 'SDS-SARATH-KJ-MAC.Dlink', ip: 'fd01:0:0:0:80d4:9d49:4ee0:3b1b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49210}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
-Session ID: fa16dcaf3cf6bc98e65da2fdc90f940b
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/lg/yztw58bx17z...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59641}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
+Session ID: 367282c6836a29bc4cac380a83412ef9
 *** Element info: {Using=xpath, value=//div[@class='multi-select-container']/child::span[text()[normalize-space()='Country']]/..}
 	at com.thoughtwork.practice.testcases.JobSearchPageTest.IsCountrySelectorEnabled(JobSearchPageTest.java:55)
 
