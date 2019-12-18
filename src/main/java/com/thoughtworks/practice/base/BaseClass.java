@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
@@ -27,6 +28,8 @@ public class BaseClass {
 
 	public static WebDriver driver;
 	public static Properties prop;
+	
+	public static Logger log = Logger.getLogger(BaseClass.class);
 	public BaseClass() {
 
 		try {
@@ -48,6 +51,9 @@ public class BaseClass {
 		if(browserName.equals("localChrome")){
 			System.setProperty("webdriver.chrome.driver", "/Users/sds-sarath.kj/Documents/eclipse-workspace/ThoughtWorksPracticeProject/chromedriver");
 			driver = new ChromeDriver();
+			
+			log.info("Launch Chrome Browser");
+			
 		}
 		else if(browserName.equals("RemoteChrome")) {
 
@@ -81,10 +87,12 @@ public class BaseClass {
 
 			URL sauceURL = new URL(prop.getProperty("sauceURL"));
 			driver = new RemoteWebDriver(sauceURL, caps);
+			log.info("launching remote chrome browser in sauce labs");
 		}
 		Thread.sleep(2000);
 		//driver.manage().window().maximize();
 		driver.manage().window().setSize(new Dimension(1600,900));
+		log.info("maximizing window");
 		driver.manage().deleteAllCookies();
 		driver.get(prop.getProperty("url"));
 		driver.manage().timeouts().pageLoadTimeout(Utility.pageLoadTimeOut, TimeUnit.SECONDS);
@@ -98,6 +106,7 @@ public class BaseClass {
 	public static void javascriptClick(WebElement element) {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click();", element);
+		log.info("clicking webelement using JS");
 	}
 	
 	public static void brokenLinksFinder() throws Throwable {

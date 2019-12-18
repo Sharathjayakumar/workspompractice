@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Thought Works Job Search Portal APP]" guice-stage="DEVELOPMENT">
-  <test name="Regeression Test - Job Search Portal(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.thoughtwork.practice.testcases.JobSearchPageTest">
-        <methods>
-          <include name="IsCountrySelectorEnabled"/>
-          <include name="isCountrySelectorDisplayed"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.thoughtwork.practice.testcases.JobSearchPageTest -->
       <class name="com.thoughtwork.practice.testcases.HomePageTest">
         <methods>
+          <include name="searchJobLinkTest"/>
+          <include name="clickCareerTabTest"/>
+          <include name="careerTabCheck"/>
+          <include name="brokenLinksCheck"/>
+          <include name="homePageTitletest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.thoughtwork.practice.testcases.HomePageTest -->
     </classes>
-  </test> <!-- Regeression Test - Job Search Portal(failed) -->
-</suite> <!-- Failed suite [Thought Works Job Search Portal APP] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

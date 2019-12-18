@@ -27,19 +27,19 @@ public class HomePageTest extends BaseClass {
 		homePage = new HomePage();
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void homePageTitletest() {
 		String homePageTitle = homePage.getHomePageTitle();
 		AssertJUnit.assertEquals(homePageTitle, "ThoughtWorks: A Global Software Consultancy | ThoughtWorks");
 	}
 	
-	@Test (priority=2)
+	@Test 
 	public void careerTabCheck() {
 		boolean flag = homePage.isCareerTabDisplayed();
 		AssertJUnit.assertEquals(flag, true);
 	}
 	
-	@Test (priority=3)
+	@Test 
 	public void searchJobLinkTest() throws Throwable {
 		Thread.sleep(5000);
 		homePage.clickOnCareerTab();
@@ -47,14 +47,14 @@ public class HomePageTest extends BaseClass {
 		AssertJUnit.assertEquals(flag, true);
 	}
 	
-	@Test (priority=4)
+	@Test 
 	public void clickCareerTabTest() throws Throwable {
 		Thread.sleep(5000);
 		homePage.clickOnCareerTab();
 		homePage.clickOnSearchJobsLink();
 	}
 	
-	@Test (priority=5)
+	@Test 
 	public void brokenLinksCheck() throws Throwable {
 		homePage.findBrokenLinks();
 	}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Thought Works Job Search Portal APP]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Regeression Test - Job Search Portal(failed)" verbose="0">
+    <classes>
+      <class name="com.thoughtwork.practice.testcases.JobSearchPageTest">
+        <methods>
+          <include name="IsCountrySelectorEnabled"/>
+          <include name="isCountrySelectorDisplayed"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.thoughtwork.practice.testcases.JobSearchPageTest -->
+    </classes>
+  </test> <!-- Regeression Test - Job Search Portal(failed) -->
+</suite> <!-- Failed suite [Thought Works Job Search Portal APP] -->

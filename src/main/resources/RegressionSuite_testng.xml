@@ -3,10 +3,8 @@
 <suite name="Thought Works Job Search Portal APP" verbose="1">
 	<test name="Regeression Test - Job Search Portal">
 		<classes>
-			<class name="com.thoughtwork.practice.testcases.HomePageTest">
-			</class>
-			<class
-				name="com.thoughtwork.practice.testcases.JobSearchPageTest"></class>
+			<class name="com.thoughtwork.practice.testcases.HomePageTest"/>
+			<class name="com.thoughtwork.practice.testcases.JobSearchPageTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

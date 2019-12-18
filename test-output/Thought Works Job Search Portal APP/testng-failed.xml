@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Thought Works Job Search Portal APP]" guice-stage="DEVELOPMENT">
-  <test name="Regeression Test - Job Search Portal(failed)">
+  <test thread-count="5" name="Regeression Test - Job Search Portal(failed)">
     <classes>
+      <class name="com.thoughtwork.practice.testcases.HomePageTest">
+        <methods>
+          <include name="brokenLinksCheck"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.thoughtwork.practice.testcases.HomePageTest -->
       <class name="com.thoughtwork.practice.testcases.JobSearchPageTest">
         <methods>
           <include name="IsCountrySelectorEnabled"/>
@@ -11,12 +18,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.thoughtwork.practice.testcases.JobSearchPageTest -->
-      <class name="com.thoughtwork.practice.testcases.HomePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.thoughtwork.practice.testcases.HomePageTest -->
     </classes>
   </test> <!-- Regeression Test - Job Search Portal(failed) -->
 </suite> <!-- Failed suite [Thought Works Job Search Portal APP] -->

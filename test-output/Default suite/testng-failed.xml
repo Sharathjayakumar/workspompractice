@@ -3,14 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.thoughtwork.practice.testcases.JobSearchPageTest">
+      <class name="com.thoughtwork.practice.testcases.HomePageTest">
         <methods>
-          <include name="IsCountrySelectorEnabled"/>
-          <include name="isCountrySelectorDisplayed"/>
+          <include name="searchJobLinkTest"/>
+          <include name="clickCareerTabTest"/>
+          <include name="careerTabCheck"/>
+          <include name="brokenLinksCheck"/>
+          <include name="homePageTitletest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.thoughtwork.practice.testcases.JobSearchPageTest -->
+      </class> <!-- com.thoughtwork.practice.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
