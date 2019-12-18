@@ -1,0 +1,6 @@
+com/thoughtworks/practice/pages/HomePage.class
+com/thoughtworks/practice/pages/JobDetailPage.class
+com/thoughtworks/practice/base/BaseClass.class
+com/thoughtworks/practice/util/Utility.class
+com/thoughtworks/practice/pages/JobSearchPage.class
+com/thoughtworks/practice/pages/JobApplyPage.class
