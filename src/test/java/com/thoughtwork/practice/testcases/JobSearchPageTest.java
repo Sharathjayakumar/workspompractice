@@ -3,11 +3,13 @@ package com.thoughtwork.practice.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.thoughtworks.practice.base.BaseClass;
 import com.thoughtworks.practice.pages.HomePage;
 import com.thoughtworks.practice.pages.JobSearchPage;
+import com.thoughtworks.practice.util.ExcelUtil;
 
 public class JobSearchPageTest extends BaseClass {
 
@@ -25,7 +27,7 @@ public class JobSearchPageTest extends BaseClass {
 	}
 	
 	
-	@Test(priority=1)
+	/*@Test(priority=1)
 	public void jobSearchPageTitle() {
 		String title = jobSearch.getSearchPageTitle();
 		Assert.assertEquals(title, "Browse Jobs | ThoughtWorks","Title is not matching");
@@ -53,14 +55,20 @@ public class JobSearchPageTest extends BaseClass {
 	public void IsCountrySelectorEnabled() throws Throwable {
 		Thread.sleep(2000);
 		Assert.assertEquals(jobSearch.countrySelectorIsEnabled(), true);
-	}
-	@Test(priority=6)
-	public void verifyJobSearch() throws Throwable {
+	}*/
+	@Test(dataProvider = "getData")
+	public void verifyJobSearch(String Name,String firstName, String lastName) throws Throwable {
 		
-		jobSearch.searchByJobTitle("Quality");
+		jobSearch.searchByJobTitle(lastName);
 		Thread.sleep(2000);
 	}
 	
+	@DataProvider
+	public Object[][] getData() throws Throwable{
+		Object[][] data = ExcelUtil.getTestData(0);
+		return data;
+		
+	}
 	
 	@AfterMethod
 	public void tearDown() {
